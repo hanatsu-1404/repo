@@ -3,14 +3,13 @@ from tkinter import ttk
 import btnTest
 from btnTest import Buttons
 
+
 root=Tk()
 root.title("test")
 
 tks=[]
 btns=[]
 opebtns=[]
-btnvar=btnTest.btn_t
-
 root_frame=ttk.Frame(root,padding=30)
 frame2=ttk.Frame(root_frame,padding=30)
 frame3=ttk.Frame(root_frame,padding=30)
@@ -38,7 +37,6 @@ btns_multi=ttk.Button(frame4,text="*",padding=20)
 btns_div=ttk.Button(frame5,text="/",padding=20)
 btns_equ=ttk.Button(frame5,text="=",padding=20)
 btns_shift=ttk.Button(frame5,text="SHIFT",padding=20)
-textentry=ttk.Entry(frame2,textvariable=btnvar)
 
 opebtns.append(btns_add)
 opebtns.append(btns_sub)
